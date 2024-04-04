@@ -34,6 +34,7 @@ app.register_blueprint(user_api) # register api routes
 app.register_blueprint(player_api)
 app.register_blueprint(titanic_api) # register api routes
 app.register_blueprint(app_projects) # register app pages
+app.register_blueprint(salaries_api)
 
 @app.errorhandler(404)  # catch for URL not found
 def page_not_found(e):
